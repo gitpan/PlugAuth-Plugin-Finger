@@ -1,0 +1,28 @@
+---
+abstract: 'Add a finger protocol interface to your PlugAuth server'
+author:
+  - 'Graham Ollis <plicease@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PlugAuth-Plugin-Finger
+requires:
+  AnyEvent::Finger::Server: 0
+  EV: 0
+  Log::Log4perl: 0
+  PlugAuth::Role::Plugin: 0
+  Role::Tiny::With: 0
+  YAML::XS: 0
+  perl: v5.10.0
+resources:
+  bugtracker: https://github.com/plicease/plugauth-plugin-finger/issues
+  homepage: http://perl.wdlabs.com/PlugAuth-Plugin-Finger/
+  repository: git://github.com/plicease/plugauth-plugin-finger.git
+version: 0.01
